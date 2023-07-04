@@ -3,7 +3,7 @@ const generateButton = document.getElementById('generateButton');
 const imageContainer = document.getElementById('imageContainer');
 
 generateButton.addEventListener('click', function () {
-    const apiUrl = 'http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true';
+    const apiUrl = 'http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=false';
 
     fetch(apiUrl)
         .then(response => response.json())
