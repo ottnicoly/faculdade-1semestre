@@ -19,7 +19,4 @@ generateButton.addEventListener('click', function () {
 
             imageContainer.appendChild(imageElement);
         })
-        .catch(error => {
-            console.error('Erro:', error);
-        });
 });
