@@ -10,16 +10,13 @@ generateButton.addEventListener('click', function () {
         .then(data => {
             const imageUrl = data[0];
 
-            // Remover imagem anterior, se existir
             while (imageContainer.firstChild) {
                 imageContainer.firstChild.remove();
             }
 
-            // Criar um elemento de imagem e definir a URL como a origem
             const imageElement = document.createElement('img');
             imageElement.src = imageUrl;
 
-            // Adicionar a imagem ao container
             imageContainer.appendChild(imageElement);
         })
         .catch(error => {
