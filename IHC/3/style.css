@@ -1,0 +1,261 @@
+header {
+    width: 100%;
+    height: 40px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    height: 699px;
+}
+
+.barra-pesquisa {
+    background-color: #5E7B42;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu img {
+    width: 25px;
+    height: 23px;
+    margin-left: 20px;
+}
+
+.sac {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 150px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.sac :nth-child(2) {
+    margin-left: 125px;
+}
+
+.sac :nth-child(3) {
+    margin-left: 125px;
+}
+
+.aumentar img {
+    width: 25px;
+    height: 25px;
+    margin-left: 80px;
+}
+
+.fav img {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+#searchbar {
+    padding: 7px;
+    border-radius: 100px;
+    width: 450px;
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+input::placeholder {
+    display: flex;
+    color: rgb(170, 170, 170);
+    padding: 2%;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.carrinho img {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.perfil img {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+
+.filtros {
+    width: 100%;
+    height: 50px;
+}
+
+.filtros {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #5E7B42;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.margem {
+    margin-left: 210px;
+}
+
+.filtros :nth-child(6) {
+    margin-right: 210px;
+}
+
+.tudo {
+    width: 100%;
+    height: 600px;
+}
+
+.tudo2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.produto {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.produto img {
+    width: 500px;
+    height: 350px;
+}
+
+.info {
+    width: 50%;
+    height: 400px;
+}
+
+.info h2, p, img, button, input {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.produto-nome {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.valor {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.valor p {
+    color: #5E7B42;
+}
+.cor {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.cor img {
+    width: 250px;
+}
+
+.carrinho2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+
+.botao {
+    border-radius: 100px;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: #5E7B42;
+    border: none;
+    color: white;
+}
+
+.carrinho2 img {
+    width: 50px;
+    height: 35px;
+}
+
+.frete {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.frete p {
+    margin-right: 10px;
+}
+
+.botao2 {
+    border-radius: 8px;
+    margin-left: 5px;
+    background-color: #5E7B42;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tudo3 {
+    width: 100%;
+    height: 210px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao img {
+    width: 700px;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
